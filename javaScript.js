@@ -80,6 +80,10 @@ console.log(car3);
 let company1 = new AllCompanies("noamCars");
 console.log(company1);
 
+
+
+////localStorage//////
+
 let tasks = [];
 
 try {
@@ -116,6 +120,10 @@ function clearTasks() {
 
 renderTasks();
 
+
+
+
+//////////session///////
 saveDraft = () => {
   let formData = {
     name: document.getElementsByName("name")[0].value,
@@ -137,6 +145,10 @@ clearDraft = () => {
   document.getElementsByName("email")[0].value = "";
 };
 
+
+
+
+///////localLogin//////
 login = () => {
     let username1 = document.getElementsByName("username")[0].value;
     let password1 = document.getElementsByName("password")[0].value;
